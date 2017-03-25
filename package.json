@@ -1,0 +1,25 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fings/staticServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fings/staticServer/issues"
+  },
+  "homepage": "https://github.com/fings/staticServer#readme",
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.11.0"
+  }
+}
