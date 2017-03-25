@@ -5,6 +5,16 @@ const fs = require('fs');
 let getpath = url=>path.resolve(process.cwd(),'public',`.${url}`);
 
 let staticFunc = (url)=>{
+
+	let map = {
+		'/':'/index.html',
+		'/blog':'/blog.html',
+		'/about':'/about.html',
+		'/login':'/login.html',
+		'/logout':'/logout.html',
+
+	}
+	url = map[url] || url;
 				if(url == '/'){
 					url = '/index.html';
 				}
